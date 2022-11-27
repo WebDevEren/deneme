@@ -7,6 +7,11 @@ body {
 * {
   box-sizing: border-box;
 }
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 /* head start */
 #head {
   background: #fc997c;
@@ -115,3 +120,51 @@ body {
   color: #3d4650;
 }
 /* How it Works finish */
+
+/* Features start */
+#features {
+  margin-bottom: 60px;
+}
+.features-img {
+  height: 45vh;
+  width: 48%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 102, 102, 0.2),
+      rgba(255, 77, 77, 0.2)
+    ),
+    url(images/features.jpeg);
+  background-position: center top;
+  background-size: cover;
+  float: left;
+}
+.features-content {
+  float: left;
+  width: 52%;
+  height: 45vh;
+  background-color: rgb(214, 211, 211);
+  padding: 30px;
+}
+.features-content h1 {
+  font-size: 31px;
+  padding-bottom: 10px;
+}
+.features-content p {
+  padding-bottom: 20px;
+}
+.features-content a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: #2e4c6d;
+  padding: 8px 12px;
+  border: 2px solid #2e4c6d;
+  transition-duration: 0.6s;
+}
+.features-content a:hover {
+  background-color: #fff;
+  color: #2e4c6d;
+  transition-duration: 0.6s;
+}
+/* Features finish */
