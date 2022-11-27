@@ -300,3 +300,56 @@ body {
   padding: 0 20px;
 }
 /* movies finish */
+
+/* foot start */
+
+#foot {
+  background-color: #2e4c6d;
+}
+#foot ul {
+  list-style-type: none;
+}
+#foot a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#foot li {
+  display: inline-block;
+}
+.left-foot-div {
+  display: inline-block;
+}
+.right-foot-div {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 700px);
+}
+.right-foot-div li {
+  margin-right: 40px;
+}
+.left-foot-div li {
+  margin-right: 40px;
+}
+.left-foot-div a:hover {
+  text-decoration: underline !important;
+}
+.fa-brands {
+  border-radius: 50%;
+  padding: 10px;
+  transition-duration: 0.6s;
+}
+.fa-facebook:hover {
+  background-color: #3b5998;
+  transition-duration: 0.6s;
+}
+.fa-twitter:hover {
+  background: #55acee;
+  transition-duration: 0.6s;
+}
+.fa-instagram:hover {
+  background-color: #125688;
+  transition-duration: 0.6s;
+}
+/* foot finish */
